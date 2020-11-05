@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Павел Воробьев — full-stack разработка сайтов и приложений под ключ</title>
+		<link href="https://shikarno.net" rel="canonical">
+        <meta name="author" content="Воробьев Павел">
+        <meta name="keywords" content="Воробьев Павел, full-stack, дизайн, разработка, программирование, приложения">
+        <meta name="description" content="Павел Воробьев. Дизайн, full-stack разработка сайтов и мобильных приложений">
+    </head>
+    <body class="site index home">
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-60073303-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <div class="container" id="main">
+            <div class="intro">
+                <h1>Разработка сайтов, веб-сервисов и мобильных приложений</h1>
+                <p class="lead">Высокое качество услуг и цены, которые вы можете себе позволить — это ли не <strong>шикарно!?</strong></p>
+            </div>
+            <div class="row" id="info">
+                <div class="col-sm-6" id="about">
+                    <div class="row">
+                        <div class="col-sm-4"> 
+                            <img src="data:image/png;base64,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" alt="Павел Воробьев">
+                        </div>
+                        <div class="col-sm-8">
+                            <h3>Павел Воробьев</h3>
+                            <p>Опыт web-разработки — <span class="big-digit">15 лет!</span></p>
+                            <ul>
+                                <li>Более двадцати побед в конкурсах на лучший дизайн, больше сотни разработанных сайтов: от визиток до порталов и магазинов.</li>
+                                <li>Люблю решать новые и нестандартные задачи!</li>
+                                <li>На данный момент активно интересуюсь разработкой мобильных приложений.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6" id="swiss">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="data:image/png;base64,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" alt="Швейцарский нож">
+                        </div>
+                        <div class="col-sm-8">
+                            <h3>Швейцарский нож</h3>
+                            <p class="info-lead">Один разработчик — решение широкого круга задач!</p>
+                            <ul>
+                                <li>Эксклюзивный дизайн<span class="hidden-sm"> и дальнейшая верстка</span>.</li>
+                                <li>Разработка плагинов, модулей, тем и шаблонов для популярных CMS Wordpress, Bitrix, Joomla!</li>
+                                <li>Проекты различной сложности на фреймворке Yii.</li>
+                                <li>Создание приложений для Android и iOS, а также мобильных версий сайтов, адаптивный дизайн.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <div class="row" id="contact-bar">
+                <div class="col-sm-3" id="contact-fl">
+                    <a href="http://blacklink.fl.ru" rel="nofollow" target="_blank"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> free-lance.ru</a>                    
+                </div>
+                <div class="col-sm-3">
+                    <a href="http://blog.shikarno.net"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Мой блог</a> 
+                </div>
+                <div class="col-sm-3" id="contact-email">
+                    <script type="text/javascript">var jabber = ("bridge2web" + "@" + "g" + "ma" + "il" + "." + "com"); document.write("<a href='mailto:" + jabber + "' id='email'><span class='glyphicon glyphicon-envelope' aria-hidden='true'></span> " + jabber + "</a>")</script>
+                </div>
+                <div class="col-sm-3" id="contact-phone">
+                    <a href="https://t.me/bridge2web" target="_blank"><span class="glyphicon glyphicon-send" aria-hidden="true"></span> bridge2web</a>
+                </div>
+            </div><div class="row" id="gallery">
+                <div class="col-sm-6">
+                    <a data-fancybox="gallery" href="/img/orimex-shop.ru_full.png" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Фирменный магазин Оримэкс в Москве</h3>
+                                <p>Серия интернет-магазинов на Yii2 под ключ. Адаптивный дизайн, верстка, разработка собсвтенного движка под задачу.</p>
+                            </div>
+                        </div>
+                        <img src="/img/orimex-shop.ru_thumbnail.png" alt="Дизайн макет Мебель Оримекс фирменный магазин Оримэкс в Москве">
+                    </a>
+                    <a data-fancybox="gallery" href="/img/sol_full.png" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Солнечная Поляна</h3>
+                                <p>Сайт под ключ на Wordpress для студии ландшафтного дизайна.</p>
+                            </div>
+                        </div>
+                        <img src="/img/sol_thumbnail.png" alt="Дизайн макет Мебель Оримекс фирменный магазин Оримэкс в Москве">
+                    </a>
+                    <a data-fancybox="gallery" href="https://img-fotki.yandex.ru/get/15553/102692940.7/0_d4b4e_56df6167_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Круглосуточная ветеринарная клиника Бона Менте</h3>
+                                <p>Разработка сайта под ключ. Адаптивный дизайн, верстка, создание темы CMS Wordpress.</p>
+                                <p>Формы записи на прием, «Задать вопрос», отзывы, слайдеры, встраивание Яндекс.Карты и роликов с Youtube</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/16185/102692940.8/0_d50bb_7c56a009_orig" alt="Дизайн макет Круглосуточная ветеринарная клиника">
+                    </a>
+                    <a data-fancybox="gallery" href="https://img-fotki.yandex.ru/get/15539/102692940.7/0_d4b50_3e0ca9de_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Середина Неба<br>Чай и кофе</h3>
+                                <p>Разработка промо-сайта и магазина под ключ. Дизайн, верстка, создание темы CMS Wordpress, кастомизация плагина магазина WooCommerce</p>
+                                <p>Примечательна главная промо-страница с параллакс-эффектом и анимацией без использования флеш, только CSS3 Animations</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5901/102692940.8/0_d50c5_2d5e6e66_orig" alt="Дизайн макет Чай и кофе">
+                    </a>
+                    <a data-fancybox="gallery" href="https://img-fotki.yandex.ru/get/15546/102692940.8/0_d4be0_e51ef6c6_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Интернет-магазин видеоигр</h3>
+                                <p>Отличный, детально проработанный дизайн магазина игровой тематики. На заднем плане возможно размещение игровых wallpaper на время акций, сейчас, т. н. дефолтный фон. Игровой дизайн во всех смыслах слова, посетителю сайта захочется поиграть с его кнопочками и фишечками, ну и заодно что-нибудь заказать на память :)</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/16165/102692940.8/0_d50c8_82082af5_orig" alt="Дизайн макет Интернет-магазин видеоигр">
+                    </a>
+                    <a data-fancybox="gallery" href="https://img-fotki.yandex.ru/get/5/102692940.7/0_d4bdf_c1c39568_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Новостной портал, соцсеть</h3>
+                                <p>Дизайн изначально разрабатывался на конкурс от Webmasters. Но, как нередко бывает, на конкурсе выбрали УГ, а мой макет с доработками и «внутряками» был приобретен для новостного портала.</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/16153/102692940.8/0_d50c3_4be4ac33_orig" alt="Дизайн макет Новостной портал, соцсеть">
+                    </a>
+                </div>
+                <div class="col-sm-6">                    
+                    <a data-fancybox="gallery" href="/img/wesco-online.ru_full.jpg" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>WESCO Россия</h3>
+                                <p>Серия интернет-магазинов на CMS Wordpress под ключ. Адаптивный дизайн, верстка, комплексное решение с использованием WooCommerce.</p>
+                            </div>
+                        </div>
+                        <img src="/img/wesco-online.ru_thumbnail.jpg" alt="Дизайн макет WESCO Росси">
+                    </a>
+                    <a data-fancybox="gallery" href="/img/olyart.ru_full.jpg" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Oly Art — искусство в одной коробке</h3>
+                                <p>Лендинг пейдж на Wordpress, с новым визуальным редактором Gutenberg</p>
+                            </div>
+                        </div>
+                        <img src="/img/olyart.ru_thumbnail.png" alt="Лендинг пейдж Oly Art">
+                    </a>
+                    <a data-fancybox="gallery" href="https://img-fotki.yandex.ru/get/15574/102692940.7/0_d4b51_24daf5fe_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Бюро переводов TranslatePro</h3>
+                                <p>Разработка сайта и фриланс-биржи под ключ. Adaptive design, верстка, создание темы CMS Wordpress.</p>
+                                <p>Для проекта был написан специальный плагин, в админке можно редактировать прайс и коэффициенты для калькулятора, кстати сам он оригинально оформлен в виде механизма-конвейера. Заказы переводов тоже управляются через панель, своеобразный электронный офис.</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/15579/102692940.8/0_d50c4_49fce326_orig" alt="Дизайн макет Бюро переводов и free-lance биржи Wordpress">
+                    </a>
+                    <a data-fancybox="gallery" href="https://img-fotki.yandex.ru/get/15569/102692940.7/0_d4b4f_a2370df2_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Профессор Обрезан</h3>
+                                <p>Разработка персонального сайта врача, доктора медицинских наук под ключ. Responsive design, верстка, создание шаблона CMS Bitrix.</p>
+                                <p>Реализация компонентов форм «Запись на прием», «Задать вопрос», календаря событий, блога, каталога научных трудов (диссертации, публикации, доклады) на Битрикс.</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/15490/102692940.8/0_d50c6_b8b3a4db_orig" alt="Дизайн макет TranslatePro Бюро переводов и free-lance биржи">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5604/bridge2web.3/0_5bc1f_81ecc63f_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Портал мультфильмов онлайн</h3>
+                                <p>Победа в конкурсе и дальнейшая разработка около 20-ти макетов .psd внутренних страниц и «шапок» для тематических разделов.</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/15564/102692940.8/0_d50c7_edf717_orig" alt="Дизайн макет PSD Портал мультфильмов онлайн">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4528/102692940.4/0_816bc_8586cd15_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Планета детства</h3>
+                                <p>Интернет журнал для родителей и педагогов под ключ на WP</p>
+                                <p>Разработка специального плагина для проекта, фотоконкурса, «витрины», кастомизации форм регистрации и авторизации Вордпресса.</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/16193/102692940.8/0_d50bf_24064846_orig" alt="Дизайн макет .psd Интернет журнал для родителей и педагогов">
+                    </a>
+                </div>
+            </div>
+            <div class="row" id="gallery-promo">
+                <div class="col-sm-12">
+                    <a href="http://delovoibiysk.ru" target="_blank" rel="nofollow">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>delovoibiysk.ru, rembiysk.ru, vse22.ru</h3>
+                                <p>Над этими проектами постоянно тружусь на основном месте работы. Самые крупные проекты, задействовано множество современных технологий. Фреймворк Yii &amp; Bootstrap 3, HTML 5 &amp; CSS 3, GruntJS, Google Services, Cloud Storage</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/3305/102692940.8/0_d5645_cfc0eb29_orig" alt="Дизайн макет сайт объявлений Деловой Бийск, о ремонте Rembiysk">
+                    </a>
+                </div>
+            </div>
+            <div class="row" id="gallery-extra">
+                <div class="col-sm-4">
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4507/bridge2web.0/0_48137_ff354b3e_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>BonusFile проект от LetItBit</h3>
+                                <p>Победа в конкурсе на лучший дизайн файлообменника. Дальнейшая верстка шаблона страниц.</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4902/bridge2web.0/0_4813a_37b52972_orig" height="247" alt="Дизайн макет PSD файлообменника от LetItBit">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5206/bridge2web.0/0_48138_5a4dd5bc_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Блог о продвижении и монетизации</h3>
+                                <p>Тема CMS Wordpress «под ключ» для блога Павла Шапранова 2 в 1 «дневная» и «ночная» смена происходит от времени суток, либо вручную (в разработке)</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4905/bridge2web.0/0_48139_c9ac1187_orig" height="489" alt="Дизайн макет PSD Блог о продвижении и монетизации">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4507/bridge2web.0/0_48158_a2753533_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Портал iPhone user</h3>
+                                <p>Победа в конкурсе на лучший дизайн сайта для пользователей Apple iPhone!</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5000/bridge2web.0/0_48159_9c45586f_orig" height="512" alt="Дизайн макет PSD портал Apple iPhone user">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5206/bridge2web.0/0_48165_61b1edf4_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Блог «Нет тревог»</h3>
+                                <p>Разработка блога под ключ (CMS Wordpress), посвященному управлению эмоциональным состоянием при стрессах и помощи при бессоннице</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5602/bridge2web.0/0_4815d_f43a4e85_orig" height="476" alt="Дизайн макет PSD Wordpress блога о помощи при стрессах и бессоннице">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/6004/bridge2web.3/0_5bc28_3e922d01_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Веб-студия МнеСайт.рф</h3>
+                                <p>Разработка своего промо-сайта, проекта веб-студии МнеСайт.рф на CMS Wordpress</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4403/bridge2web.3/0_5bc2c_84d73669_orig" height="382" alt="Дизайн макет PSD Wordpress темы веб-студии">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4700/bridge2web.0/0_4816c_ab7c576_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Веб-студия, дизайн с конкурса</h3>
+                                <p>Разработка .pds макета сайта для web-студии</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5404/bridge2web.0/0_48167_fd17563b_orig" height="421" alt="Макет .pds сайта для web-студии">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4428/102692940.4/0_8181a_66947222_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Хостинг, VPS, VDS</h3>
+                                <p>Отличный дизайн макет для хостинговой компании</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4427/102692940.4/0_81819_360d495d_orig" height="307" alt="Дизайн макет psd для хостинговой компании, VPS, VDS">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4429/102692940.4/0_81809_39c88f7b_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Цитадель</h3>
+                                <p>Коллекторское агентство, сайт под ключ</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4529/102692940.4/0_81808_8b2d968_orig" height="300" alt="Коллекторское агентство, сайт под ключ">
+                    </a>                    
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4700/bridge2web.0/0_481a4_6446746f_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Туристический портал</h3>
+                                <p>Дизайн туристической тематики</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5301/bridge2web.1/0_481ae_d6ebc0a7_orig" height="388" alt="Туристический портал">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4428/102692940.4/0_81817_3bbf8c7b_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>РуДроид.нет</h3>
+                                <p>Открой для себя OS Android. Сайт под ключ на Wordpress</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4429/102692940.4/0_81818_a144a8b6_orig" height="388" alt="Дизайн макет PSD Wordpress о секретах OS Android">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4606/bridge2web.0/0_48171_7233f605_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Французская компания «Care Fitness»</h3>
+                                <p>Разработка сайта под ключ (CMS Wordpress)</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/6000/bridge2web.0/0_48170_d18fa490_orig" height="276" alt="Дизайн макет PSD французская компания «Care Fitness», тренажеры, беговые дорожки">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/6005/bridge2web.3/0_5bd13_22ba87e9_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Тайна слов</h3>
+                                <p>Призовое место в конкурсе. Тайна слов, значения и происхождения слов. Интересный дизайн в трех вариациях</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/6004/bridge2web.3/0_5bd12_8b428b5d_orig" height="565" alt="Интересный дизайн макет PSD Тайна слов, значения и происхождения">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4605/bridge2web.0/0_481a8_4d1bd963_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Chanel 5018</h3>
+                                <p>Дизайн промо-сайта очков Chanel 5018</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4506/bridge2web.0/0_481a7_582455d4_orig" height="418" alt="Дизайн макет PSD промо-сайта очков Chanel">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5302/bridge2web.3/0_5bc35_d15a5eb4_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Веб-студия Shapranov.com</h3>
+                                <p>Разработка сайта веб-студии Shapranov.com на Wordpress. Первоначальный дизайн, как зачастую бывает, был несколько переработан в процессе</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4404/bridge2web.3/0_5bc38_68bffad2_orig" height="389" alt="Дизайн макет .pds темы Вордпресс для веб-студии">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5000/bridge2web.0/0_481a5_6f5c20c4_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Модный и пафосный портал</h3>
+                                <p>Красивый и стильный dark дизайн отлично подойдет для портала фотографов, моделей и студий</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4906/bridge2web.0/0_481a6_282e4c52_orig" height="456" alt="Красивый и стильный dark дизайн макет PSD для портала фотографов, моделей и студий">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4900/bridge2web.1/0_48260_1dbe8bdd_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Официальный сайт доктора Акинфиевой</h3>
+                                <p>Разработка темы CMS Wordpress для стоматолога</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5500/bridge2web.1/0_4825f_7a66a1cb_orig" height="394" alt="Дизайн макет PSD стоматолога доктора Акинфиевой">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5901/bridge2web.1/0_48268_d8223493_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Стоматология «Санидент»</h3>
+                                <p>Разработка темы CMS Wordpress для стоматологической клиники</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4400/bridge2web.1/0_48267_f157ac5b_orig" height="332" alt="Дизайн макет PSD Wordpress темы для стоматологической клиники">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5000/bridge2web.1/0_48266_a08346a7_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Медицинский центр «Лекарь Плюс»</h3>
+                                <p>Победа в конкурсе и дальнейшая разработка сайта «под ключ»</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5702/bridge2web.1/0_48265_5602513d_orig" height="521" alt="Дизайн макет PSD Медицинский центр «Лекарь Плюс»">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5505/bridge2web.3/0_5bd33_aaf25e19_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Стоматологич<span class="hidden-sm">еская</span> клиника «Дантист»</h3>
+                                <p>Разработка темы CMS Wordpress для стоматологической клиники</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5705/bridge2web.3/0_5bd32_8384528f_orig" height="388" alt="Дизайн макет PSD Wordpress стоматологической клиники Дантист">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5004/bridge2web.3/0_5bd31_eea46c19_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Стоматология</h3>
+                                <p>Современный дизайн сайта стоматологической клиники, был разработан шаблон CMS Joomla 3</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/6004/bridge2web.3/0_5bd30_a27b64a2_orig" height="260" alt="Современный дизайн PSD CMS Joomla 3 стоматологической клиники">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4405/bridge2web.3/0_5bd4e_88cd182f_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Лазерная стоматология</h3>
+                                <p>Информационный дизайн центра стоматологии</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4703/bridge2web.4/0_5bd53_ebc33c69_orig" height="535" alt="Информационный дизайн PSD центра лазерной стоматология">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/6001/bridge2web.3/0_4cf05_81015fe6_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Юридические лица России</h3>
+                                <p>Информациионный дизайн, база данных юрлиц России</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5800/bridge2web.1/0_48275_fe89d32f_orig" height="429" alt="Информациионный дизайн PSD Юридические лица России">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5900/bridge2web.1/0_4827e_93edf370_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Адвокат Виталий Толкачев</h3>
+                                <p>Победа в конкурсе на лучший дизайн сайта адвоката</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4605/bridge2web.1/0_4827d_1bf280f2_orig" height="300" alt="Дизайн макет PSD сайта адвоката">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5700/bridge2web.2/0_4828a_18916c3b_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Портал о снегоходах и квадроциклах</h3>
+                                <p>Победа в конкурсе на разработку дизайна главной страницы портала о снегоходах и квадроциклах</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4902/bridge2web.2/0_48289_2847a090_orig" height="300" alt="Дизайн макет PSD портала о снегоходах и квадроциклах">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5800/bridge2web.1/0_48272_75430dd5_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>«Visa non-stop»</h3>
+                                <p>Сайт «под ключ» на CMS Joomla!</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4806/bridge2web.1/0_48271_81d2c098_orig" height="300" alt="Дизайн макет PSD Joomla компании Visa non-stop">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5206/bridge2web.2/0_48328_cd5f851d_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>«К звездам»</h3>
+                                <p>Сообщество музыкантов kzvezdam.ru</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5000/bridge2web.2/0_48327_78a7a91c_orig" height="147" alt="Дизайн макет PSD сообщество музыкантов">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4505/bridge2web.2/0_48326_2bfbf171_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>«Soundsense»</h3>
+                                <p>Soundsense – некоммерческий проект, призванный объединить людей, пишущих электронную музыку. По сути это социальная сеть. Дизайн выбирался на конкурсной основе, победила моя работа. В дальнейшем было разработано около десятка внутренних страниц</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4904/bridge2web.2/0_48340_8ce22fdf_orig" height="525" alt="Дизайн макет PSD социальная сеть людей, пишущих электронную музыку">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4601/bridge2web.2/0_48542_826f18f3_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Портал с оригинальным интерфейсом</h3>
+                                <p>Портальный дизайн с полной настройкой пользователем под себя</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4509/bridge2web.3/0_48547_49479850_orig" height="264" alt="Дизайн макет PSD портала с оришинальным интерфейсом">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5801/bridge2web.2/0_4831d_4e5a339b_M" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>«2 Радуги»</h3>
+                                <p>Победа в конкурсе. Сайт агентства праздников «2 Радуги» (идеи, дизайн, иллюстрации, flash) Один из первых серьезных проектов</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5801/bridge2web.2/0_4831d_4e5a339b_M" height="209" alt="«2 Радуги»">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4603/bridge2web.0/0_48169_5c3fd4e3_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Агентство Финансовой и Правовой Безопасности</h3>
+                                <p>Разработка сайта под ключ (CMS Wordpress)</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4506/bridge2web.0/0_48153_6f6ec8a5_orig" height="395" alt="Агентство Финанс и Правовой Безопасности">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4428/102692940.4/0_81807_3360e0c6_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Каталог PRO</h3>
+                                <p>Дорогие аксессуары, которые приносят прибыль. Уменьшенное превью, в оригинале 1:1 сморится интересней :)</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4428/102692940.4/0_81806_20192d74_orig" height="300" alt="Дорогие аксессуары, которые приносят прибыль">
+                    </a>                    
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4510/bridge2web.3/0_52999_24e0161c_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Рыболовный интернет магазин</h3>
+                                <p>Удобный дизайн рыболовного интернет магазина, теплая атмосфера, отделка под дерево, модули в виде ящичков под приманки, гибкая структура</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4604/bridge2web.0/0_48152_964094af_orig" height="618" alt="Рыболовный интернет магазин">
+                    </a>
+                    <a data-fancybox="gallery" href="https://img-fotki.yandex.ru/get/16142/102692940.8/0_d4de6_3ebe346d_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Доставка суши</h3>
+                                <p>Аппетитный .psd макет магазина, сервиса доставки суши, роллов и др. блюд, японской кухни</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/10138/102692940.8/0_d4de4_4ee037a5_orig" width="360" height="271" alt="Дизайн макет PSD доставка суши, роллов, японской кухни">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5704/bridge2web.3/0_5bd15_5a640ba3_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Агентство праздников</h3>
+                                <p>Корпоративные праздники, детские праздники и свадебные торжества</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5503/bridge2web.3/0_5bd14_7fc1f097_orig" height="397" alt="Дизайн для сайта праздничного агентства">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4903/bridge2web.0/0_48166_7e6648a9_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Котельные, отопление, водоснабжение</h3>
+                                <p>Разработка темы CMS Wordpress под ключ</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4400/bridge2web.0/0_48168_6322aeee_orig" height="253" alt="Котельные, отопление, водоснабжение">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4511/bridge2web.0/0_4816f_95c076d0_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>ОВК монтаж. Системы водоснабжения и канализации</h3>
+                                <p>Разработка темы CMS Wordpress под ключ</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4906/bridge2web.0/0_4816e_76548552_orig" height="258" alt="ОВК монтаж. Системы водоснабжения и канализации">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5004/bridge2web.3/0_5bd0f_51d9c6c9_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Блог «3 в одном»</h3>
+                                <p>Разработано 2 варианта на конкурс, к сожалению работа не принесла победу. Можно еще нарисовать 3-й стиль, с возможностью переключения между ними и получилась бы замечательная тема для блога на Wordpress</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5407/bridge2web.3/0_5bd0e_42cb7a3a_orig" height="559" alt="Блог «3 в одном»">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5602/bridge2web.1/0_48270_4849f56e_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Продвижение сайтов</h3>
+                                <p>Разработка дизайна сайта компании «Яковлев и Ко», а также верстка и создание темы CMS Wordpress</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5801/bridge2web.1/0_4826f_a8632210_orig" height="318" alt="Продвижение сайтов">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5108/bridge2web.3/0_5bd11_ae5e81c3_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Все о технике Apple</h3>
+                                <p>Блог в стиле Apple под ключ на Wordpress</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4703/bridge2web.3/0_5bd19_f57fd0e9_orig" height="621" alt="Все о технике Apple">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4602/bridge2web.0/0_48176_4da5473e_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Компания «Ростгруз»</h3>
+                                <p>Разработка темы CMS Wordpress под ключ</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/6000/bridge2web.0/0_48175_98fd854a_orig" height="295" alt="Компания «Ростгруз»">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/6005/bridge2web.4/0_5bd50_d78e7cf5_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Продажа грузовой техники</h3>
+                                <p>Дизайн для сайта по продаже грузовой техники или грузоперевозкам</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4403/bridge2web.3/0_5bd4f_554f2630_orig" height="273" alt="Дизайн для сайта по продаже грузовой техники или грузоперевозкам">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4606/bridge2web.0/0_48173_7db86528_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Блог об автомобилях</h3>
+                                <p>Разработка темы блога под ключ</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4905/bridge2web.0/0_48172_fbfea8fa_orig" height="465" alt="Блог об автомобилях">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5602/bridge2web.0/0_481ad_8d3a9166_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Юридический центр «Дилионс»</h3>
+                                <p>Разработка темы CMS Wordpress под ключ</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5405/bridge2web.0/0_481ac_af731a_orig" height="391" alt="Юридический центр «Дилионс»">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4505/bridge2web.1/0_48259_c30f61c9_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Курьерская служба</h3>
+                                <p>Современный дизайн для службы доставки</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/6002/bridge2web.1/0_4825a_a071dbab_orig" height="382" alt="Курьерская служба">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5902/bridge2web.3/0_4cf08_ca264d7b_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Курьерская служба (Classic)</h3>
+                                <p>Дизайн под старину, пергаментное письмо и сургучная печать, теплая цветовая гамма и фон дерева создадут нужное настроение</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5800/bridge2web.1/0_48257_cb9ca7dc_orig" height="344" alt="Курьерская служба (Classic)">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4401/bridge2web.1/0_48285_87e354ba_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Эксклюзивные бильярдные кии</h3>
+                                <p>Дизайн сайта по продаже бильярдных киев</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4906/bridge2web.2/0_48286_c4c1e544_orig" height="203" alt="Эксклюзивные бильярдные кии">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5601/bridge2web.2/0_4828c_e621525d_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Сельско-хозяйственный ресурс</h3>
+                                <p>Дизайн сельскохоз тематики</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5300/bridge2web.2/0_4828b_502ce14b_orig" height="254" alt="Сельскохозяйственный ресурс">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5300/bridge2web.3/0_4cf09_a9aa96eb_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Минеральные удобрения</h3>
+                                <p>Оригинальный макет подойдет для разной тематики</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5500/bridge2web.1/0_4827b_bf60af4_orig" height="388" alt="Минеральные удобрения">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4901/bridge2web.1/0_48282_9065cded_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>ООО «Кармаска-линский элеватор»</h3>
+                                <p>Дизайн и разработка сайта для ООО «Кармаскалинский элеватор»</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5702/bridge2web.1/0_48281_ada973ba_orig" height="376" alt="ООО «Кармаскалинский элеватор»">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5802/bridge2web.1/0_4826e_86b6f6d5_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Системы видео-наблюдения</h3>
+                                <p>Дизайн сайта охранных систем</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4401/bridge2web.1/0_4826d_93c4c9f7_orig" height="401" alt="Системы видеонаблюдения">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5602/bridge2web.1/0_4827a_46ae184_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Недвижимость на Рублевке</h3>
+                                <p>Элитная недвижимость</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5601/bridge2web.1/0_48279_5a0389c_orig" height="418" alt="Недвижимость на Рублевке">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4400/bridge2web.2/0_48325_26d6e3d8_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>«Мой котенок»</h3>
+                                <p>Победа в конкурсе. Дизайн портального сайта о кошках</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4905/bridge2web.2/0_48324_fb31243f_orig" height="705" alt="«Мой котенок»">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5601/bridge2web.2/0_4831e_2f0932f2_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>«Город снов»</h3>
+                                <p>Победа в конкурсе. Сайт знакомств «Город снов» В дальнейшем разработаны были внутренние страницы</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/6000/bridge2web.2/0_4831f_ac21bc1a_orig" height="527" alt="«Город снов»">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5900/bridge2web.2/0_48436_4a7e45e8_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Интерьеры, ремонт, отделка</h3>
+                                <p>3 вариации, интересное дизайнерское решение, возможно использование flash — можно менять динамически картинку в «квадратах», изменение цвета</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4606/bridge2web.2/0_48435_2b93e24b_orig" height="300" alt="Интерьеры, ремонт, отделка">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5206/bridge2web.2/0_48439_9e9f78ba_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Дизайн интерьера, отделка</h3>
+                                <p>Легкий, воздушный дизайн для сайта о ремонте, дизайне интерьеров.</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5501/bridge2web.2/0_48433_d41a6489_orig" height="338" alt="Дизайн интерьера, отделка">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5700/bridge2web.2/0_48541_3fbd1be5_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Магазин иконок</h3>
+                                <p>Для тех кто не боится перемен и всего нового, этот оригинальный дизайн интернет магазина с необычной интерактивной корзиной. <span class="hidden-sm">С удовольствием возьмусь за реализацию макета в жизнь, предположительно на платформе CMS WordPress + WP e-Commerce Plugin</span></p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/6001/bridge2web.2/0_48540_cf301fc_orig" height="275" alt="Магазин иконок">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4428/102692940.4/0_8180a_56ffcbe0_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>«МОЙ ДОМ»</h3>
+                                <p>Управляющая компания, дизайн сайта</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4429/102692940.4/0_8180b_b2d41927_orig" height="266" alt="Управляющая компания, дизайн для сайта">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4601/bridge2web.3/0_48546_c1e62145_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Салон красоты</h3>
+                                <p>Дизайн сайта салона красоты</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4602/bridge2web.3/0_48545_cf63e1e1_orig" height="338" alt="Салон красоты">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5603/bridge2web.3/0_5bc13_79aa4542_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Скидочник</h3>
+                                <p>Разработка агрегатора скидок под ключ на платформе Wordpress. Было представлено несколько вариантов дизайна и реализации сервиса, проделана большая работа</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5804/bridge2web.3/0_5bc14_cc6264d4_orig" height="535" alt="Скидочник, агрегатор скидок">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4506/bridge2web.1/0_481b1_22b03524_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Редизайн интернет-магазина</h3>
+                                <p>Победа в конкурсе «Редизайн интернет-магазина бытовой техники и электроники»</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5301/bridge2web.1/0_481b0_bff345f2_orig" height="418" alt="Редизайн интернет-магазина бытовой техники и электроники">
+                    </a>
+                    <a data-fancybox="gallery" href="https://img-fotki.yandex.ru/get/17918/102692940.8/0_d4de8_1c245818_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Airfood</h3>
+                                <p>Сайт под ключ на Wordpress. Бортовое питание и обеспечение деловой авиации. <span class="hidden-sm">Оригинальная главная промо-страница с различными эффектами CSS3, без использования Adobe Flash</span></p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/15509/102692940.8/0_d4de7_7702de86_orig" alt="Дизайн макет PSD Wordpress бортовое питание и обеспечение деловой авиации">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/6004/bridge2web.4/0_5be35_4c850cf9_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Интернет-магазин люстр</h3>
+                                <p>Качественный дизайн магазина люстр и светильников</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/6003/bridge2web.4/0_5be37_1693ceda_orig" height="530" alt="Интернет-магазин люстр">
+                    </a>                    
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5902/bridge2web.0/0_4817a_254a196c_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Туристическое агентство</h3>
+                                <p>Яркий, удобный дизайн. Можно нарисовать разные шапки для разных разделов, разных стран (контуры достопримечательностей) в едином стиле</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5500/bridge2web.0/0_48179_28abdb18_orig" height="624" alt="Туристическое агентство">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4427/102692940.4/0_8180c_1fb3b771_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>YaTelefon</h3>
+                                <p>Все об Iphone, игры, приложения, анонсы, новости, статьи, обзоры. Разработка сайта под ключ (CMS Wordpress)</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4529/102692940.4/0_8180d_d3f9584_orig" height="612" alt="Все об Iphone, игры, приложения, анонсы, новости, статьи, обзоры">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5902/bridge2web.0/0_4815a_702a339d_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Фитнес портал</h3>
+                                <p>Победа в конкурсе на лучший дизайн портала о фитнесе!</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4900/bridge2web.0/0_4815b_6bf47aeb_orig" height="461" alt="Фитнес портал">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5406/bridge2web.0/0_48164_ebf90d46_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Отель «Лианозово»</h3>
+                                <p>Разработка темы CMS Wordpress под ключ</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4903/bridge2web.0/0_48163_dd6e3050_orig" height="406" alt="Отель «Лианозово»">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/6000/bridge2web.0/0_48177_9dab8e8d_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Бюро переводов</h3>
+                                <p>Разработка темы CMS Wordpress под ключ</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4906/bridge2web.0/0_48178_b51e5be4_orig" height="400" alt="Бюро переводов">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5300/bridge2web.0/0_48182_386a6844_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Кафе «Cafe Cafe»</h3>
+                                <p>Разработка темы CMS Wordpress под ключ</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4700/bridge2web.0/0_48174_9900ea3e_orig" height="294" alt="Кафе «Cafe Cafe»">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4403/bridge2web.4/0_5be34_89d6f8a7_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Кафе «De Sophie»</h3>
+                                <p>Разработка темы CMS Wordpress под ключ. Элементы фирменного стиля были предоставлены заказчиком</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5407/bridge2web.4/0_5be36_f466cf83_orig" height="217" alt="Кафе «De Sophie»">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4900/bridge2web.1/0_4825c_f9a0b89a_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Двери «Евро Дизайн»</h3>
+                                <p>Разработка темы CMS Wordpress для компании «ЕвроДизайн»</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4402/bridge2web.1/0_4825b_79ba8298_orig" height="401" alt="Двери «Евро Дизайн»">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/6005/bridge2web.3/0_5bd4d_3e742c9e_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Клининговые услуги</h3>
+                                <p>Дизайн для сайта клининговой компании (профессиональная уборка помещений)</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5108/bridge2web.3/0_5bd4c_156dfed3_orig" height="347" alt="Клининговые услуги">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4902/bridge2web.1/0_48264_984b30c9_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Send2Blog.ru</h3>
+                                <p>Была поставлена задача разработать легкий и стильный дизайн для web-сервиса. <span class="hidden-sm">Этот дизайн обошелся клиенту совсем недорого, а поставленная задача была решена на «отлично»</span></p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5602/bridge2web.1/0_48263_feb1195e_orig" height="282" alt="Send2Blog.ru">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4513/bridge2web.3/0_5bd10_804e4c9a_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Новостройки Киева «Нова квартира»</h3>
+                                <p>Информационный портал о недвижимости под ключ на платформе CMS Wordpress</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4404/bridge2web.3/0_5bd27_b0c0b4bb_orig" height="439" alt="Новостройки Киева Нова квартира">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5601/bridge2web.3/0_4cf0a_e9a0f175_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Агентство недвижимости</h3>
+                                <p>Дизайн для сайта агентства недвижимости или строительной компании</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4506/bridge2web.1/0_48277_47d45f98_orig" height="225" alt="Агентство недвижимости">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5404/bridge2web.2/0_48288_9ca1791e_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Бар «Beer Park»</h3>
+                                <p>Призовое место в конкурсе на дизайн сайта пивбара</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4700/bridge2web.2/0_48287_caa25555_orig" height="426" alt="Бар «Beer Park»">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5503/bridge2web.3/0_5bc23_dd6a28dd_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Салон красоты «Makropulos»</h3>
+                                <p>Симпатичная тема для вордпресс под ключ</p>
+                            </div>
+                        </div>
+                        <img src="https://img-novosib.fotki.yandex.ru/get/5503/bridge2web.3/0_5bc23_dd6a28dd_M" height="251" alt="Салон красоты">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5801/bridge2web.1/0_48274_269b1839_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Салон красоты</h3>
+                                <p>В центре предполагается карусель услуг на flash или javascript</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4905/bridge2web.1/0_48273_9ca076ff_orig" height="329" alt="Салон красоты">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4401/bridge2web.1/0_4826c_9dd1e2be_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Еще один салон красоты</h3>
+                                <p>Дизайн сайта салона красоты</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5902/bridge2web.1/0_4826b_539f3ecf_orig" height="418" alt="Еще один салон красоты">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5300/bridge2web.1/0_48284_ad845fcd_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Видеочат «Visual Chat»</h3>
+                                <p>Победа в конкурсе на лучший дизайн для видеочата</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/6000/bridge2web.1/0_48283_52d93146_orig" height="300" alt="Видеочат «Visual Chat»">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/6000/bridge2web.2/0_48323_9f00dcfb_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Билетный сайт «TicketMix»</h3>
+                                <p>Билетный сайт «TicketMix»</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5902/bridge2web.2/0_48322_101e32eb_orig" height="300" alt="Билетный сайт «TicketMix»">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4402/bridge2web.2/0_48321_cbfe2e1f_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>«Сибирский Петербург»</h3>
+                                <p>Официальный туристический портал города Бийска</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5501/bridge2web.2/0_48320_d6b99893_orig" height="288" alt="«Сибирский Петербург»">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5700/bridge2web.2/0_4832a_e78f37c2_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>«Neotext.ru»</h3>
+                                <p>Победа в конкурсе "Необходимо сделать редизайн для Neotext. В дальнейшем было разработано около десятка внутренних страниц</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/5700/bridge2web.2/0_48329_2be36a35_orig" height="531" alt="«Neotext.ru»">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5106/bridge2web.2/0_48438_3248ce84_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Отделочные материалы, интерьер</h3>
+                                <p>Простой в хорошем смысле этого слова дизайн, подойдет для сайта строительно-отделочной тематики</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4509/bridge2web.2/0_48437_f9be08ae_orig" height="300" alt="Отделочные материалы, интерьер">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5705/bridge2web.3/0_5bd4a_2e4f2d6f_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Магазин мебели</h3>
+                                <p>Дизайн для сайта интернет магазина Magico Mebel</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4512/bridge2web.3/0_5bd49_10bb6660_orig" height="278" alt="Дизайн для сайта интернет магазина Magico Mebel">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4512/bridge2web.4/0_5bd5b_2b7e31ab_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Минерал-Колор</h3>
+                                <p>Российское представительство французской компании Минерал-Колор. Сайт под ключ с каталогом продукции, полностью управляемый из админки Wordpress. <span class="hidden-sm">«Сложный» клиент :) было представлено около 10 вариантов дизайна, пока не пришли к желаемому</span></p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4703/bridge2web.4/0_5bd5a_ce63069d_orig" height="345" alt="Российское представительство французской компании MineralColor">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/5800/bridge2web.2/0_48449_a377e428_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Софтверный продукт</h3>
+                                <p>Дизайн сайта программы</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4902/bridge2web.2/0_48448_fd4c81c5_orig" height="299" alt="Софтверный продукт">
+                    </a>
+                    <a data-fancybox="gallery" href="http://img-fotki.yandex.ru/get/4900/bridge2web.3/0_48544_5b757909_orig" target="_blank">
+                        <div class="gallery-item">
+                            <div class="gallery-item-content">
+                                <h3>Автопортал</h3>
+                                <p>Дизайн а-ля хабр автомобильного портала</p>
+                            </div>
+                        </div>
+                        <img src="https://img-fotki.yandex.ru/get/4603/bridge2web.2/0_48543_31f12dd5_orig" height="440" alt="Автопортал">
+                    </a>
+                </div>
+            </div>
+        </div>                     
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" property="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Yeseva+One&amp;subset=latin,cyrillic" rel="stylesheet" property="stylesheet">
+        <link href="/app.min.css" rel="stylesheet" property="stylesheet">
+        <link href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" rel="stylesheet" property="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        <script>
+                        /*! jquery.finger - v0.1.2 - 2014-10-01
+                         * https://github.com/ngryman/jquery.finger
+                         * Copyright (c) 2014 Nicolas Gryman; Licensed MIT */
+                        (function (e, t) {
+                            var b = /chrome/i.exec(t), x = /android/i.exec(t), w = "ontouchstart" in window && !(b && !x), q = w ? "touchstart" : "mousedown", u = w ? "touchend touchcancel" : "mouseup mouseleave", c = w ? "touchmove" : "mousemove", m = "finger", j = e("html")[0], f = {}, r = {}, p, d, v, k, o, h, a = e.Finger = {pressDuration: 300, doubleTapInterval: 300, flickDuration: 150, motionThreshold: 5};
+                            function i(z) {
+                                z.preventDefault();
+                                e.event.remove(j, "click", i)
+                            }
+                            function g(A, z) {
+                                return(w ? z.originalEvent.touches[0] : z)["page" + A.toUpperCase()]
+                            }
+                            function n(B, C, z) {
+                                var A = e.Event(C, r);
+                                e.event.trigger(A, {originalEvent: B}, B.target);
+                                if (A.isDefaultPrevented()) {
+                                    if (~C.indexOf("tap") && !w) {
+                                        e.event.add(j, "click", i)
+                                    } else {
+                                        B.preventDefault()
+                                    }
+                                }
+                                if (z) {
+                                    e.event.remove(j, c + "." + m, s);
+                                    e.event.remove(j, u + "." + m, l)
+                                }
+                            }
+                            function y(A) {
+                                var z = A.timeStamp || +new Date();
+                                if (v == z) {
+                                    return
+                                }
+                                v = z;
+                                f.x = r.x = g("x", A);
+                                f.y = r.y = g("y", A);
+                                f.time = z;
+                                f.target = A.target;
+                                r.orientation = null;
+                                r.end = false;
+                                p = false;
+                                d = false;
+                                k = setTimeout(function () {
+                                    d = true;
+                                    n(A, "press")
+                                }, e.Finger.pressDuration);
+                                e.event.add(j, c + "." + m, s);
+                                e.event.add(j, u + "." + m, l);
+                                if (a.preventDefault) {
+                                    A.preventDefault();
+                                    e.event.add(j, "click", i)
+                                }
+                            }
+                            function s(z) {
+                                r.x = g("x", z);
+                                r.y = g("y", z);
+                                r.dx = r.x - f.x;
+                                r.dy = r.y - f.y;
+                                r.adx = Math.abs(r.dx);
+                                r.ady = Math.abs(r.dy);
+                                p = r.adx > a.motionThreshold || r.ady > a.motionThreshold;
+                                if (!p) {
+                                    return
+                                }
+                                clearTimeout(k);
+                                if (!r.orientation) {
+                                    if (r.adx > r.ady) {
+                                        r.orientation = "horizontal";
+                                        r.direction = r.dx > 0 ? +1 : -1
+                                    } else {
+                                        r.orientation = "vertical";
+                                        r.direction = r.dy > 0 ? +1 : -1
+                                    }
+                                }
+                                while (z.target && z.target !== f.target) {
+                                    z.target = z.target.parentNode
+                                }
+                                if (z.target !== f.target) {
+                                    z.target = f.target;
+                                    l.call(this, e.Event(u + "." + m, z));
+                                    return
+                                }
+                                n(z, "drag")
+                            }
+                            function l(C) {
+                                var z = C.timeStamp || +new Date(), B = z - f.time, D;
+                                clearTimeout(k);
+                                if (!p && !d && C.target === f.target) {
+                                    var A = o === C.target && z - h < a.doubleTapInterval;
+                                    D = A ? "doubletap" : "tap";
+                                    o = A ? null : f.target;
+                                    h = z
+                                } else {
+                                    C.target = f.target;
+                                    if (B < a.flickDuration) {
+                                        n(C, "flick")
+                                    }
+                                    r.end = true;
+                                    D = "drag"
+                                }
+                                n(C, D, true)
+                            }
+                            e.event.add(j, q + "." + m, y);
+                            e.each(["tap", "doubletap", "press", "drag", "flick"], function (A, z) {
+                                e.fn[z] = function (B) {
+                                    return B ? this.on(z, B) : this.trigger(z)
+                                }
+                            })
+                        })(jQuery, navigator.userAgent);
+
+                        $(function () {
+                            $(window).on("resize", function () {
+                                $(".gallery-item").each(function (index) {
+                                    $(this).css("width", $(this).parent().width() + "px");
+                                    $(this).css("height", $(this).parent().height() + "px");
+                                });
+                            });
+                            $(window).on("load", function () {
+                                $(window).resize();
+                            });
+
+                            if ('ontouchstart' in document.documentElement) {
+                                $('#gallery a, #gallery-promo a, #gallery-extra a').on('click', function (e) {
+                                    if (!$(this).hasClass('clicked')) {
+                                        var gi = $(this).children('.gallery-item');
+                                        gi.css("width", $(this).width() + "px");
+                                        gi.css("height", $(this).height() + "px");
+                                        gi.fadeTo("fast", 1);
+                                        $(this).addClass('clicked');
+                                        e.preventDefault();
+                                    }
+                                });
+                            } else {
+                                $(".gallery-item").hover(
+                                        function (e) {
+                                            $(this).css("width", $(this).parent().width() + "px");
+                                            $(this).css("height", $(this).parent().height() + "px");
+                                            $(this).fadeTo(400, 1);
+                                        },
+                                        function (e) {
+                                            $(this).fadeTo("fast", 0);
+                                        }
+                                );
+                            }
+
+
+                            $('#show-phone').on('click', function (e) {
+                                e.preventDefault();
+                                var v = '+7 9' + '06 9' + '69-0' + '9-00' + "\n\n";
+                                alert("Пожалуйста, используйте телефонный номер только для отправки SMS или Viber!\n\n" + v);
+                            });
+                        });
+        </script>
+    </body>
+</html>

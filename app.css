@@ -1,0 +1,827 @@
+/* global */
+
+body {
+    padding-top: 50px;
+}
+
+h2 {
+    font-family: 'Yeseva One', cursive;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    color: #7f8c8d;
+}
+
+h3 {
+    font-family: 'Yeseva One', cursive;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+a:hover {
+    outline: 0;
+    color: #c0392b;
+}
+
+#main {
+    margin-bottom: 70px;
+}
+
+/* header */
+
+.navbar-brand {
+    font-family: 'Yeseva One', cursive;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.brand {
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.intro {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+#contact-send {
+    text-transform: uppercase;
+}
+
+/* info */
+
+#info {
+    margin-bottom: 40px;
+}
+
+#about .big-digit {
+    font-size: 21px;
+    position: relative;
+    top: 2px;
+    font-weight: bold;
+}
+
+#about img {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#about h3 {
+    font-family: 'Yeseva One', cursive;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0px;
+} 
+
+#about ul {
+    font-size: 13px;
+    padding-left: 18px;
+}
+
+#about ul li {
+    margin-bottom: 7px;
+}
+
+/* swiss */
+
+#swiss img {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#swiss h3 {
+    font-family: 'Yeseva One', cursive;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+#swiss ul {
+    font-size: 13px;
+    padding-left: 18px;
+}
+
+#swiss ul li {
+    margin-bottom: 7px;
+}
+
+
+/* contact */
+
+#contact-bar {
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 70px;
+}
+
+.home #contact-bar {
+    margin-bottom: 40px;
+}
+
+#contact-bar a {
+    color: #bdc3c7;    
+}
+
+#contact-bar a:hover {
+    outline: 0;
+    text-decoration: none;
+    color: #c0392b;
+}
+
+#contact-bar a:focus {
+    outline: 0;
+    text-decoration: none;
+}
+
+#contact-bar a:hover .glyphicon {
+    color: #c0392b;
+}
+
+#contact-bar .glyphicon {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+#SkypeButton_Call_bridge2web_1 {
+    position: absolute;
+    margin-top: -24px;
+}
+
+
+/* gallery */
+
+#gallery {
+
+}
+
+#gallery a {
+    color: #fff;
+    margin-bottom: 30px;
+    display: block;
+}
+
+#gallery a:hover { 
+
+} 
+
+#gallery img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #EEEEEE;
+    display: block;
+}
+
+.gallery-item {
+    display: table;
+    position: absolute;
+    opacity: 0;
+}
+
+.gallery-item-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.40) 0%, rgba(0,0,0,0.90) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.40)), color-stop(100%,rgba(0,0,0,0.90))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.40) 0%,rgba(0,0,0,0.90) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0.40) 0%,rgba(0,0,0,0.90) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0.40) 0%,rgba(0,0,0,0.90) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.40) 0%,rgba(0,0,0,0.90) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf000000', endColorstr='#4d000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+.gallery-item-content h3 {
+    font-size: 32px;
+    font-family: 'Yeseva One', cursive;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: normal;
+    border-bottom: 1px solid #9A9A9A;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#gallery .gallery-item-content p {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+}
+
+/* gallery-promo */
+
+#gallery-promo a {
+    color: #fff;
+    margin-bottom: 30px;
+    display: block;
+}
+
+#gallery-promo img {
+    width: 100%;
+    height: auto;
+    border: 3px solid #c0392b;
+    display: block;
+}
+
+#gallery-promo .gallery-item-content p {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+/* gallery-extra */
+
+#gallery-extra {
+
+}
+
+#gallery-extra a {
+    color: #fff;
+    margin-bottom: 30px;
+    display: block;
+}
+
+#gallery-extra img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #EEEEEE;
+    display: block;
+}
+
+#gallery-extra .gallery-item-content h3 {
+    font-size: 26px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#gallery-extra .gallery-item-content p {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+/* contact-form */
+
+#contact-form {
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+#contact-form .nav {
+    margin-bottom: 15px;
+}
+
+#contact-form .nav li {
+
+}
+
+#contact-form .nav li span {
+
+}
+
+#contact-notes {
+    color: #7f8c8d;
+    font-size: 13px;
+    margin-top: 15px;
+    padding-left: 18px;
+}
+
+#contact-notes a {
+    color: #7f8c8d;
+    text-decoration: underline;
+}
+
+#contact-notes li {
+
+}
+
+#contact-form-submit {
+    margin-bottom: 20px;
+}
+
+#thank {
+    width: 256px;
+    height: 256px;
+    background: url('data:image/png;base64,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');
+    display: none;
+    margin: 0 auto;
+}
+
+/* header */
+
+#header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#header h1, #header .h1 {
+    margin-top: 0;
+    font-family: 'Yeseva One', cursive;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 68px;
+}
+
+.big-digit {
+    font-weight: bold;
+}
+
+#header .header-h {
+    font-size: 18px;
+}
+
+#header-about img {
+    width: 100%;
+    height: auto;
+}
+
+#header-swiss .header-h {
+    font-size: 18px;
+}
+
+#header-swiss img {
+    width: 100%;
+    height: auto;
+}
+
+/* h-entry */
+
+.post-index .h-entry {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.h-entry h3 {
+    font-size: 32px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 150%;
+}
+
+.h-entry h3 a {
+    color: rgb(51, 51, 51);
+    border-bottom: 1px solid rgb(51, 51, 51);
+}
+
+.h-entry h3 a:hover, .h-entry h3 a:focus {
+    text-decoration: none;
+    border-bottom: 0;
+}
+
+.h-entry .dt-published {
+    color: #bdc3c7;
+    font-size: 13px;
+    line-height: 48px;
+    text-align: right;
+    display: block;
+}
+
+.h-entry h1.p-name {
+    font-family: 'Yeseva One', cursive;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 0px;
+    color: #7f8c8d;
+    padding-bottom: 10px;
+}
+
+.h-entry .e-content {
+    border-top: 1px solid #EEEEEE;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.e-content h6 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+
+    h3 {
+        font-size: 21px;
+    }
+    
+    .intro {
+        padding: 20px 15px;
+        text-align: center;
+    }
+
+    .intro h1 {
+        font-size: 28px;
+    }
+
+    #info {
+        margin-bottom: 20px;
+    }
+
+    #swiss {
+
+    }
+
+    #swiss h3 {
+        text-align: center;
+    }
+
+    #swiss p {
+        text-align: center;
+    }
+
+    #swiss ul {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #swiss img {
+        width: 165px;
+        margin: 0 auto;
+        margin-top: 0px; 
+        margin-bottom: 15px;
+    }
+
+    #about {
+        margin-bottom: 20px;
+    }
+
+    #about h3 {
+        text-align: center;
+    }
+
+    #about p {
+        text-align: center;
+    }
+
+    #about ul {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #about img {
+        width: 165px;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+
+    #contact-bar {
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        border-top: 1px solid #EEEEEE;
+    }
+
+    #contact-bar .col-sm-3 {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-bottom: 1px solid #EEEEEE;
+    }
+
+    #contact-form .nav-tabs>li>a {
+        font-size: 13px;
+    }
+
+    #header img {
+        display: none;
+    }
+    
+    #header h1, #header .h1 {
+        font-size: 36px;
+    }
+
+    .h-entry .dt-published {
+        text-align: left;
+    }
+
+    #gallery .gallery-item-content h3 {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 18px;
+    }
+
+    #gallery .gallery-item-content p {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 11px;
+    }
+
+    #gallery-extra .gallery-item-content h3 {
+        font-size: 18px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    #gallery-extra .gallery-item-content p {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 11px;
+    }
+
+    #gallery-promo .gallery-item {
+        z-index: 1000;
+    }
+
+    #gallery-promo .gallery-item-content p {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 11px;
+    }
+
+    #gallery-promo .gallery-item-content h3 {
+        font-size: 16px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .post-index .h-entry {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #EEEEEE;
+    }
+
+    .h-entry h3 {
+        font-size: 21px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        line-height: 150%;
+    }
+
+    .h-entry .dt-published {
+        color: #bdc3c7;
+        font-size: 13px;
+        line-height: normal;
+        text-align: left;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .h-entry h1.p-name {
+        font-family: 'Yeseva One', cursive;
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        margin-top: 0px;
+        color: #7f8c8d;
+        padding-bottom: 10px;
+    }
+
+    .h-entry .e-content {
+        border-top: 1px solid #EEEEEE;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .e-content h6 {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+}
+
+/* Extra small devices (phones, less than 380px) */
+@media (max-width: 380px) {
+
+}
+
+/* Small devices (tablets, 768px and up) | .visible-xs.visible-sm */
+@media (min-width: 768px) and (max-width: 991px) { 
+
+    #about h3 {
+        font-size: 18px; 
+    }
+
+    #about p {
+        font-size: 13px;
+    }
+
+    #about img {
+        margin-top: 70px;
+    }
+
+    #about .big-digit {
+        font-size: 18px;
+        position: relative;
+        top: 2px;
+        font-weight: bold;
+    }
+
+    #about ul {
+        font-size: 12px;
+        padding-left: 18px;
+    }
+
+    #swiss h3 {
+        font-size: 18px; 
+    }
+
+    #swiss p {
+        font-size: 13px;
+    }
+
+    #swiss img {
+        margin-top: 70px;
+    }
+
+    #swiss ul {
+        font-size: 11px;
+        padding-left: 18px;
+    }
+
+    #contact-bar {
+        font-size: 16px;
+    }
+
+    #contact-bar .glyphicon {
+        font-size: 14px;
+    }
+	
+	#contact-email {
+		font-size: 14px;
+	}
+	
+	#contact-email .glyphicon {
+		display: none;
+	}
+	
+	#contact-phone {
+		text-align: right;
+	}
+
+    #gallery .gallery-item-content h3 {
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 24px;
+    }
+
+    #gallery .gallery-item-content p {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 13px;
+    }
+
+    #gallery-promo .gallery-item-content p {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 15px;
+    }
+
+    #gallery-promo .gallery-item-content h3 {
+        font-size: 24px;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    #gallery-extra .gallery-item-content h3 {
+        font-size: 18px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    #gallery-extra .gallery-item-content p {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 13px;
+    }
+
+    #header h1, #header .h1 {
+        font-size: 26px;
+        line-height: 52px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    #header p {
+        font-size: 11px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) | .visible-xs.visible-md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .intro h1 {
+        font-size: 32px;
+    }
+
+    .intro .lead {
+        font-size: 20px;
+    }
+
+    #about h3 {
+        font-size: 21px; 
+    }
+
+    #about p {
+
+    }
+
+    #about img {
+        margin-top: 30px;
+    }
+
+    #about ul {
+        font-size: 12px;
+        padding-left: 18px;
+    }
+
+    #swiss h3 {
+        font-size: 21px; 
+    }
+
+    #swiss p {
+
+    }
+
+    #swiss img {
+        margin-top: 30px;
+    }
+
+    #swiss ul {
+        font-size: 11px;
+        padding-left: 18px;
+    }
+	
+	 #contact-bar {
+        font-size: 16px;
+    }
+
+    #contact-bar .glyphicon {
+        font-size: 14px;
+    }
+	
+	#contact-email {
+
+	}
+	
+	#contact-email .glyphicon {
+		display: none;
+	}
+	
+	#contact-phone {
+		text-align: right;
+	}
+
+    #gallery-extra .gallery-item-content h3 {
+        font-size: 21px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+
+    #gallery-extra .gallery-item-content p {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 15px;
+    }
+
+    #header h1, #header .h1 {
+        font-size: 32px;
+        line-height: 52px;
+    }
+
+    #header p {
+        font-size: 13px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
